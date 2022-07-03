@@ -1,9 +1,9 @@
 {
     "name": "اكس دارك",
-    "logo": "https://te.legra.ph/file/48b15ea2011dc80cdcaab.jpg",
+    "logo": "https://telegra.ph/file/fdbaab61d8b1543030897.jpg",
     "description": "An Advanced Premium Music Bot For Telegram Groups VC.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/Telugucoders/Amalamusic",
+    "repository": "https://github.com/MH7MD1/X-DARK",
     "stack": "container",
     "env": {
         "API_ID": {

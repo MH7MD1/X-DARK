@@ -1,0 +1,50 @@
+{
+    "name": "اكس دارك",
+    "logo": "https://te.legra.ph/file/48b15ea2011dc80cdcaab.jpg",
+    "description": "An Advanced Premium Music Bot For Telegram Groups VC.",
+    "keywords": ["music", "voice chat", "telegram"],
+    "repository": "https://github.com/Telugucoders/Amalamusic",
+    "stack": "container",
+    "env": {
+        "API_ID": {
+            "description": "ايبي ايدي",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "هاش",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "توكن",
+            "required": true
+        },
+        "STRING_SESSION": {
+            "description": "بايرو",
+            "required": true
+        },
+        "BOT_USERNAME": {
+            "description": "يوزر البوت بدون @",
+            "required": true
+        },
+        "SUDO_USERS": {
+            "description": "ايديك",
+            "required": true
+        },
+        "GROUP": {
+            "description": "معرف جروبك",
+            "required": true
+        },
+        "NETWORK": {
+            "description": "معرف قناتك",
+            "required": true
+        }
+    },
+    "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    }
+  ]
+}

@@ -125,7 +125,7 @@ async def get_uptime(c: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🗑 ʙɪɴ", callback_data="set_close")
+                        "🗑 حذف", callback_data="set_close")
                 ]
             ]
         ),

@@ -71,7 +71,7 @@ async def commands_set(_, query: CallbackQuery):
             InlineKeyboardButton("انهاء", callback_data="stop_list"), 
             ],[
             InlineKeyboardButton("التشغيل", callback_data="play_list"), 
-            InlineKeyboardButton("sᴏᴜʀᴄᴇ", callback_data="source"), 
+            InlineKeyboardButton("معلومات", callback_data="source"), 
             ],[
             InlineKeyboardButton("◁", callback_data="home_start"), 
             ]]
